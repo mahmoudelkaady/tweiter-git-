@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.box {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+.box .register {
+  font-size: 13px;
+}
+.white-box {
+  height: 40px;
+  background-color: white;
+  cursor: pointer;
+}
+.white-box:hover {
+  background-color: rgb(235, 230, 230);
+}
+.white-box img {
+  width: 30px;
+}
+.white-box .e-d {
+  font-size: 13px;
+}
+.box .text {
+  font-size: 13px;
+}
+.box .text a {
+  text-decoration: none;
+}
+.box .text a:hover {
+  text-decoration: underline;
+}
+.foott {
+  font-size: 13px;
+}
+.foot span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.col-privet {
+  width: 29% ima !important;
+}
+.search {
+  border-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-width: 0 1px 0 1px;
+}
+.nav input {
+  border: none;
+  background-color: rgb(53, 49, 49);
+}
+.nav input:focus {
+  outline-color: lightblue;
+}
+.search {
+  position: relative;
+}
+.fa-magnifying-glass:before,
+.fa-search:before {
+  right: 57px;
+  top: 18px;
+  position: absolute;
+}
+.borderr {
+  position: relative;
+}
+.borderr::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background-color: #0d6efd;
+  right: 16px;
+  border-radius: 5px;
+  bottom: -9px;
+}
+.up {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.set {
+  padding-left: 25px;
+}
+.info p {
+  font-size: 14px;
+}
+.last {
+  color: rgb(214, 210, 210);
+}
+.last {
+  width: fit-content;
+}
+.ex:hover {
+  background-color: rgba(59, 57, 57, 0.514);
+}
+.footer {
+  height: calc(100vh - 555px);
+  background-color: #0d6efd;
+}
